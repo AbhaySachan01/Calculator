@@ -1,0 +1,120 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+#cover{
+     min-height: 100vh; 
+     min-width: 100%;
+     Background-image: linear-gradient(180deg,#002642, #031926, #02040f, black 100%);
+     padding: 10px;
+     position: relative;
+}
+#container{
+     width: 100%;
+     max-width: 450px;
+     margin: 80px auto;
+     box-shadow: 
+     0 6px 1px rgba(0,0,0,.1),
+     0 0 5px rgba(0,0,0,.1),
+     0 1px 3px rgba(0,0,0,.3),
+     0 3px 5px rgba(0,0,0,.2),
+     0 5px 10px rgba(0,0,0,.25),
+     0 10px 10px rgba(0,0,0,.2),
+     0 20px 20px rgba(0,0,0,.15);;
+     padding: 40px 30px 40px;
+     Background-image: linear-gradient(180deg,#022239, #052c43);
+     border-radius: 1rem;
+     text-align: center;
+}
+#container h1{
+     color: #fffffc;
+     font-size: 3.5rem;
+     text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    letter-spacing: 0.03em;
+}
+#screen{
+     text-align: right;
+     width: 98%;
+     outline: none;
+     border: none;
+     font-size: 1.6rem;
+     border-radius: 3rem;
+     margin-top: 20px;
+     padding: 12px 20px ;
+}
+table{
+     /* border: 1px solid white; */
+     width: 98%;
+     height: 350px;
+     margin-top: 10px;
+}
+td{
+     margin: 3px;
+     /* border: 1px solid white; */
+}
+button{
+     height: 53px;
+     width: 53px;
+     background: transparent;
+     border-radius: 50%;
+     color: white;
+     font-size: 1.5rem;
+     font-weight: bolder;
+     outline: none;
+     border: 1px solid #02040f;
+     box-shadow:1px 1px 1px #000000,
+     1px 2px 1px #000000,
+     1px 3px 1px #000000,
+     1px 4px 1px #000000,
+     1px 5px 1px #000000,
+     1px 6px 1px #000000,
+ 1px 18px 6px rgba(16,16,16,0.4),
+ 1px 22px 10px rgba(16,16,16,0.2),
+ 1px 25px 35px rgba(16,16,16,0.2),
+ 1px 30px 60px rgba(16,16,16,0.4); ;
+transition-duration: 0.2s;
+}
+button:hover{
+     cursor: pointer;
+     transform: scale(1.1);
+}
+.op{
+     color: #ccff33;
+}
+.ac{
+     background-color: #fe7f2d;
+     border: none;
+}
+.submit{
+     background-color: #06bee1;
+     border: none;
+}
+#my{
+     position: absolute;
+     bottom: 30px;
+     right: 30px;
+     height: 30px;
+     width: 200px;
+     border-radius: 3rem;
+     background-color: aliceblue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #031926;
+}
+#my a{
+     text-decoration: none;
+     font-size: 1.2rem;
+     color: rgb(214, 212, 212);
+}
+
